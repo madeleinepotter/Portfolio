@@ -1,0 +1,29 @@
+project:
+  type: book
+
+book:
+  title: "Portfolio"
+  author: "Madeleine Potter"
+  date: "25/04/2024"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: yeti
+    css: styles.css
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
