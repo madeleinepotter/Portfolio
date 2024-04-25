@@ -10,11 +10,22 @@ book:
       - about.qmd
       - icon: github
         href: https://github.com/
+        listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+
   chapters:
     - index.qmd
     - intro.qmd
     - summary.qmd
     - references.qmd
+    - page.qmd
 
 bibliography: references.bib
 
@@ -27,3 +38,4 @@ format:
 
 editor: visual
 
+output-dir: docs
